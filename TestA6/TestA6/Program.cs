@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace test_assignment_06
+namespace TestA6
 {
     class Program
     {

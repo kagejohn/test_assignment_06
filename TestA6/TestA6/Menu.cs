@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace test_assignment_06
+namespace TestA6
 {
     public static class Menu
     {

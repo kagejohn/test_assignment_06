@@ -14,7 +14,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\test_assignment_06\test_assignment_06.csproj" />
+    <ProjectReference Include="..\TestA6\TestA6.csproj" />
   </ItemGroup>
 
 </Project>

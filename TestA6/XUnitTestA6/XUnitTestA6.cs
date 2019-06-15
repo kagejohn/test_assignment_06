@@ -2,19 +2,19 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using Moq;
-using test_assignment_06;
+using TestA6;
 using Xunit;
 
-namespace XUnitTestProject1
+namespace XUnitTestA6
 {
-    public class UnitTest1
+    public class XUnitTestA6
     {
         private readonly List<Pizza> _pizzaMenu = new List<Pizza>();
         readonly Mock<IList<Order>> _orderMock = new Mock<IList<Order>>();
         private readonly List<Order> _orderList = new List<Order>();
         private readonly List<Pizza> _staticMenu = Menu.Read();
 
-        public UnitTest1()
+        public XUnitTestA6()
         {
             #region Mockist
 
